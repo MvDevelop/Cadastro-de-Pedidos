@@ -3,13 +3,9 @@
   "version": "1.0.0",
   "description": "nodejs e mysql",
   "main": "app.js",
-  "engines": {
-    "node": "20.x"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js",
-    "vercel-build": "npx views deploy"
+    "start": "nodemon"
   },
   "keywords": [
     "express",
@@ -21,13 +17,10 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "express": "^2.5.11",
+    "express": "^4.19.2",
     "express-fileupload": "^1.5.1",
     "express-handlebars": "^8.0.1",
     "mysql2": "^3.11.0",
     "nodemon": "^3.1.4"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
   }
 }

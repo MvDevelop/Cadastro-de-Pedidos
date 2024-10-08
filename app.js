@@ -17,8 +17,6 @@ const fs = require('fs');
 // App
 const app = express();
 
-const port = processMultipart.env.PORT || 8080;
-
 // Habilitando o upload de arquivos
 app.use(fileupload());
 
